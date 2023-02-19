@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #taskInput {
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  #addButton {
+    padding: 10px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #addButton:hover {
+    background-color: #3e8e41;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+  }
+  
+  li.done {
+    text-decoration: line-through;
+  }
+  
+  #deleteButton {
+    padding: 10px;
+    margin: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #deleteButton:hover {
+    background-color: #c9302c;
+  }
+
+
+  /* Style the task list */
+#taskList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Style each task */
+  #taskList li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Style the task description */
+  #taskList li span {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  /* Style the task buttons */
+  #taskList li button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: normal;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style the "Done" button */
+  #taskList li button.done {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  /* Style the "Delete" button */
+  #taskList li button.delete {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  /* Style the "Add" button */
+  #addButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style the "Add" button on hover */
+  #addButton:hover {
+    background-color: #1976d2;
+  }
+  
+  /* Style the "Delete Completed" button */
+  #deleteButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style the "Delete Completed" button on hover */
+  #deleteButton:hover {
+    background-color: #e53935;
+  }
+  
+  
